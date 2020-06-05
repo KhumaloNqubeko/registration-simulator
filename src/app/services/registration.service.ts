@@ -15,7 +15,7 @@ export class RegistrationService {
     console.log(userData);
 
     const reqHeader = new HttpHeaders({
-      'Content-Type': 'text/plain',
+      'Content-Type': 'application/json',
       'Access-Control-Allow-Origin': '*'
     });
 
